@@ -8,22 +8,14 @@ h1{
 
 .top-container{
     background-color: #f5564e;
-    border: 10px;
-    padding: 20px;
-    height:200;
-    width:200;
 }
 
 .middle-container{
     background-color: #fab95b;
-    border: 20px;
-    height:200;
-    width:200;
+    height:200px;
 }
 
 .bottom-container{
     background-color: #1a3263;
-    border: 20px;
-    height:200;
-    width:200;
+    height:200px;
 }

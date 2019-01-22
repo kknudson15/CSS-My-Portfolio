@@ -2,11 +2,13 @@ body{
     margin:0;
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
+    background-color: #cdffeb;
 }
 
 h1{
     margin-top: 0;
     font-family: 'Dancing Script', cursive;
+    font-size: 562.5%;
 }
 
 h2{
@@ -24,13 +26,11 @@ h3{
 }
 
 .middle-container{
-    background-color: #009f9d;
-    height:400px;
+    background-color: #cdffeb;
 }
 
 .bottom-container{
-    background-color: #07456f;
-    height:200px;
+    background-color: #cdffeb;
 }
 
 .Pro{
@@ -39,13 +39,13 @@ h3{
 
 .bottom-cloud{
     position: absolute;
-    left: 400px;
-    top: 200px;
+    left: 300px;
+    top: 300px;
 }
 
 .top-cloud{
     position: absolute;
-    right: 400px;
+    right: 300px;
     top: 50px;
     
 }

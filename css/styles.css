@@ -31,7 +31,12 @@ h3{
     color: #11999E;
 }
 
+p{
+    font-family: 'Indie Flower', cursive;
+}
+
 a{
+    font-family: 'Indie Flower', cursive;
     color:#cdffeb;;
 }
 
@@ -80,7 +85,7 @@ a{
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
-    line-height: 3;
+    line-height: 2;
 }
 
 .computer-image{
@@ -92,6 +97,12 @@ a{
 .python{
     width: 25%;
     float: left;
+    padding-right: 30px;
+}
+
+.Web-Development {
+    width: 25%;
+    float:left;
     padding-right: 30px;
 }
 
@@ -142,6 +153,10 @@ a{
 .topnav {
     background-color: #66BFBF;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
   }
   
   /* Style the links inside the navigation bar */

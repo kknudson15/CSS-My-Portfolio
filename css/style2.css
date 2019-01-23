@@ -16,13 +16,17 @@ h2{
 
 a{
     font-family: 'Indie Flower', cursive;
-    color:#cdffeb;;
+    color:#cdffeb;
+}
+
+ul{
+  padding-left: 10px;  
 }
 
 .top-container{
     text-align: center;
     position: relative;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 .bottom-container
@@ -34,7 +38,7 @@ a{
     font-size: 1.25em;
     text-align: left;
     width: 80%;
-    margin: 50px auto;
+    margin: 40px auto;
     line-height: 2.5;
 }
 
@@ -51,44 +55,23 @@ a{
     width: 25%;
     float: left;
     padding-right: 50px;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .analytics{
     width:25%;
     float: left;
-    padding-right: 50px;
+    padding-right: 70px;
 }
 
 .MSU
 {
     font-weight: bold;
+    padding-right: 10%;
 }
 
 .SCSU
 {
     font-weight: bold;
+    
 }
-
-  .topnav {
-    background-color: #66BFBF;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-
-  }
-  
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }

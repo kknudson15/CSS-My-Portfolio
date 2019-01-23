@@ -1,0 +1,90 @@
+body{
+    background-color: #cdffeb;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+hr{
+    border: dotted #66BFBF 6px;
+    border-bottom: 0;
+    width: 3%;
+}
+
+h2{
+    text-align: center;
+}
+
+a{
+    font-family: 'Indie Flower', cursive;
+    color:#cdffeb;;
+}
+
+
+
+
+.top-container{
+    text-align: center;
+    position: relative;
+    padding-top: 30px;
+}
+
+.bottom-container
+{
+    background-color: #66BFBF;
+}
+.Education{
+    font-family: 'Indie Flower', cursive;
+    text-align: left;
+    width: 60%;
+    margin: 50px auto;
+    line-height: 2.5;
+}
+
+.work-experience
+{
+    font-family: 'Indie Flower', cursive;
+    text-align: left;
+    width: 60%;
+    margin: 50px auto;
+    line-height: 2.5;
+}
+
+.College1{
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.analytics{
+    width:25%;
+    float: left;
+    padding-right: 30px;
+}
+
+
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: #66BFBF;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }

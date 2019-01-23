@@ -19,9 +19,6 @@ a{
     color:#cdffeb;;
 }
 
-
-
-
 .top-container{
     text-align: center;
     position: relative;
@@ -34,8 +31,9 @@ a{
 }
 .Education{
     font-family: 'Indie Flower', cursive;
+    font-size: 1.25em;
     text-align: left;
-    width: 60%;
+    width: 80%;
     margin: 50px auto;
     line-height: 2.5;
 }
@@ -44,7 +42,7 @@ a{
 {
     font-family: 'Indie Flower', cursive;
     text-align: left;
-    width: 60%;
+    width: 80%;
     margin: 50px auto;
     line-height: 2.5;
 }
@@ -52,18 +50,26 @@ a{
 .College1{
     width: 25%;
     float: left;
-    padding-right: 30px;
+    padding-right: 50px;
     padding-left: 30px;
 }
 
 .analytics{
     width:25%;
     float: left;
-    padding-right: 30px;
+    padding-right: 50px;
 }
 
+.MSU
+{
+    font-weight: bold;
+}
 
-  /* Add a black background color to the top navigation */
+.SCSU
+{
+    font-weight: bold;
+}
+
   .topnav {
     background-color: #66BFBF;
     overflow: hidden;
@@ -73,7 +79,6 @@ a{
 
   }
   
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -83,7 +88,6 @@ a{
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
     color: black;

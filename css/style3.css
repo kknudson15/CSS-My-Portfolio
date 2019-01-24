@@ -3,6 +3,10 @@ body{
     font-family: 'Indie Flower', cursive;
 }
 
+h1{
+  font-family: 'Dancing Script', cursive;
+}
+
 
 .top-container
 {
@@ -13,29 +17,51 @@ body{
 
 .middle-container
 {
+  text-align: center;
   line-height: 1.5;
+}
+
+.bottom-container
+{
+  text-align: center;
 }
 
 .media
 {
   text-align: center;
   line-height: 2;
-  width: 60%;
+  width: 100%;
 }
+
+.Program
+{
+  
+  width:50%;
+}
+
 
 .machine
 {
   width: 60%;
   padding-bottom: 20px;
+  padding-left: 100px;
 }
 
 .map
 {
   width: 60%;
   padding-bottom: 20px;
+  padding-left: 100px;
 }
 
 .briefcase
 {
   width: 20%;
+}
+
+.Othello-img
+{
+  width: 60%;
+  padding-bottom: 20px;
+  padding-left: 100px;
 }

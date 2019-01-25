@@ -132,6 +132,19 @@ a{
 }
 
 
+/* Navigation Bar */
+.navbar
+{
+    background-color: #66BFBF;
+}
+
+.nav-item
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
 .butn {
     background: #66BFBF;
     background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);

@@ -96,6 +96,7 @@ a{
     margin: 0 auto;
     width: 35%;
     text-align: center;
+    color: #11999E;
 }
 
 /* SKills Section */
@@ -138,6 +139,14 @@ a{
 .contact-me{
     line-height: 2;
 }
+
+.contact-header
+{
+    padding: 5%;
+    font-family: 'Indie Flower', cursive;
+    color: #11999E;
+}
+
 
 /* Footer of the Website */
 .bottom-container{

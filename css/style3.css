@@ -85,3 +85,15 @@ a{
 {
     color:#EAF6F6
 }
+
+/* Navigation Bar */
+.navbar
+{
+    background-color: #66BFBF;
+}
+
+.nav-item
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}

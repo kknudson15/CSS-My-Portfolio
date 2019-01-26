@@ -10,17 +10,24 @@ hr{
     width: 3%;
 }
 
-h2{
-    text-align: center;
-}
 
 a{
     font-family: 'Indie Flower', cursive;
     color:#cdffeb;
 }
 
-ul{
-  padding-left: 10px;  
+ul
+{
+    list-style: none;
+}
+
+.title
+{
+    text-align: left;
+    text-decoration: underline;
+    color:#66BFBF;
+    font-weight: bold;
+    padding: 2%;
 }
 
 .top-container{
@@ -33,14 +40,6 @@ ul{
 {
     background-color: #66BFBF;
 }
-.Education{
-    font-family: 'Indie Flower', cursive;
-    font-size: 1.25em;
-    text-align: left;
-    width: 80%;
-    margin: 40px auto;
-    line-height: 2.5;
-}
 
 .work-experience
 {
@@ -51,28 +50,30 @@ ul{
     line-height: 2.5;
 }
 
-.College1{
-    width: 25%;
-    float: left;
-    padding-right: 50px;
-    padding-left: 40px;
+.education
+{
+    text-align: justify;
+    padding-left:0;
+    padding-top: 2%;
+    width: 50%
 }
 
-.analytics{
-    width:25%;
-    float: left;
-    padding-right: 70px;
+.edu{
+    padding:0;
 }
 
 .MSU
 {
     font-weight: bold;
-    padding-right: 10%;
+    padding-top: 5%;
+    list-style-type: none;
 }
 
 .SCSU
 {
     font-weight: bold;
+    padding-top: 5%;
+    list-style: none;
     
 }
 

@@ -2,8 +2,11 @@
     <head>
         <meta charset="utf-8">
         <title>About</title>
+        <!--Bootstrap link-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!--CSS Style sheet-->
         <link rel="stylesheet" href="css/style2.css">
+        <!--Google Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Shadows+Into+Light" rel="stylesheet">
 
            <!--Font Awesome Icons-->
@@ -13,53 +16,64 @@
     <body>
 
 
-
-
+        <!--Navagation Bar-->
         <nav class="navbar navbar-expand-lg navbar-dark navbar fixed-top" style="background-color: #66BFBF">
-    
             <a class="navbar-brand" href="index.html">Kyle Knudson</a>
-            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
                  <span class="navbar-toggler-icon"></span>
              </button>
-             
-             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                 
+             <div class="collapse navbar-collapse" id="navbarTogglerDemo02"> 
                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
                      <li class="nav-item">
                          <a class="nav-link" href="about.html">About</a>
                      </li>
                      <li class="nav-item">
                          <a class="nav-link" href="portfolio.html">Portfolio</a>
                      </li>
-                 </ul>
-                 
+                 </ul> 
              </div>
-         </nav>
+         </nav><br><br><br>
 
 
+         <div class = "row">
+             <div class = "col">
+                            <h1>About Me!</h1>
+             </div>
 
-        <div class = "top-container">
-            <h1>About Me!</h1>
-        </div>
+         </div>
+
 
         <div class = "middle-container">
-            <div class = "Education">
-                    <h2>Education</h2>
-                <img class = "College1" src="Images/graduation.png" alt="College1">
-                    <ul>
-                        <li class = "MSU">Montana State University</li>
-                        <ul>
-                            <li>Bachelors of Science in Cell Biology and Neuroscience</li>
-                            <li>August 2011 - August 2015</li>
-                            <li class = "education-description">Examined neurological processes, theory of current neurological disease models,  
-                                mental health, and the anatomy/physiology of the brain</li>
-                        </ul>
-                        <br>
+            <div class = "row">
+                <div class = "title col-sm-12">
+                        <h2>Education</h2>
+                </div>
+                <div class = " edu col-sm-4">
+                        <img class = "College1" src="Images/graduation.png" alt="College1">
+                </div>
+                <div class = "edu col-sm-8">
 
+                                <ul class = "education">
+                                    <li class = "MSU">Montana State University</li>
+                                    <li>Bachelors of Science in Cell Biology and Neuroscience</li>
+                                    <li>August 2011 - August 2015</li>
+                                    <li class = "education-description">Examined neurological processes, theory of current neurological disease models,  
+                                        mental health, and the anatomy/physiology of the brain</li>
+                                </ul>
+                </div>
+
+                <div class = "edu col-sm-4">
                         <img class="analytics" src="Images/analytics.png" alt="masters">
-                        <li class = "SCSU">Saint Cloud State University</li>
-                        <ul>
+                </div>
+
+                <div class = "edu col-sm-8">
+                        
+
+                        <ul class = "education">
+                                <li class = "SCSU">Saint Cloud State University</li>
                                 <li>Master of Science in Computer Science</li>
                                 <li>January 2018 - December 2019</li>
                                 <li class = "education-description">
@@ -67,8 +81,8 @@
                                         computer architecture, data structures, algorithms, parallel computing and best practices.
                                 </li>
                             </ul>
-                    </ul>
                 </div>
+            </div>
             </div>
 
             <hr>

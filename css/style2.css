@@ -1,19 +1,27 @@
 body{
-    background-color: #cdffeb;
-    font-family: 'Dancing Script', cursive;
+    background-color: #faf5ef;
+    font-family: 'Merriweather', serif;
     text-align: center;
 }
 
 hr{
-    border: dotted #66BFBF 6px;
+    border: dotted #393e46 6px;
     border-bottom: 0;
     width: 3%;
+}
+h2{
+    text-align: justify;
+}
+
+h1{
+    text-emphasis: bold;
+    text-decoration-line: underline;
 }
 
 
 a{
-    font-family: 'Indie Flower', cursive;
-    color:#cdffeb;
+    font-family: 'Merriweather', serif;
+    color:#393e46;
 }
 
 ul
@@ -25,7 +33,7 @@ ul
 {
     text-align: left;
     text-decoration: underline;
-    color:#66BFBF;
+    color:#393e46;
     font-weight: bold;
     padding: 2%;
 }
@@ -38,49 +46,34 @@ ul
 
 .bottom-container
 {
-    background-color: #66BFBF;
-}
-
-.work-experience
-{
-    font-family: 'Indie Flower', cursive;
-    text-align: left;
-    width: 80%;
-    margin: 50px auto;
-    line-height: 2.5;
-}
-
-.education
-{
-    text-align: justify;
-    padding-left:0;
-    padding-top: 2%;
-    width: 50%
-}
-
-.edu{
-    padding:0;
-}
-
-.MSU
-{
-    font-weight: bold;
-    padding-top: 5%;
-    list-style-type: none;
-}
-
-.SCSU
-{
-    font-weight: bold;
-    padding-top: 5%;
-    list-style: none;
-    
+    background-color: #222831;
 }
 
 .footer-link{
-    font-size: 1.5em;
+    font-size: 1.25em;
     color:#cdffeb;
 }
+#education 
+{
+    padding: 100px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .flex-container .box {
+    background-color: #faf5ef;
+    width: 50%;
+    margin: 10px;
+  }
+  .box img {
+    width: 70%;
+    height: auto;
+}
+
 
 .trademark
 {
@@ -90,11 +83,11 @@ ul
 /* Navigation Bar */
 .navbar
 {
-    background-color: #66BFBF;
+    background-color: #222831;
 }
 
 .nav-item
 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: bold;
 }

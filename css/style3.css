@@ -1,14 +1,14 @@
 body{
-    background-color: #cdffeb;
-    font-family: 'Indie Flower', cursive;
-}
+    background-color: #faf5ef;
+    font-family: 'Merriweather', serif;
+  }
 
 h1{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Merriweather', serif;
 }
 
 a{
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Merriweather', serif;
   color:#cdffeb;
 }
 
@@ -64,7 +64,7 @@ a{
 .footer
 {
   text-align: center;
-  background-color: #66BFBF;
+  background-color: #222831;
 }
 
 .footer-link{
@@ -80,11 +80,11 @@ a{
 /* Navigation Bar */
 .navbar
 {
-    background-color: #66BFBF;
+    background-color: #222831;
 }
 
 .nav-item
 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: bold;
 }

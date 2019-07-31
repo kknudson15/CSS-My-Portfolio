@@ -1,145 +1,77 @@
 body{
-    margin:0;
     text-align: center;
-    position: relative;
-    font-family: 'Shadows Into Light', cursive;
-    background-color: #cdffeb;
+    font-family: 'Merriweather', serif;
+    background-color: #faf5ef;
 }
-
-hr{
-    border: dotted #66BFBF 6px;
-    border-bottom: 0;
-    width: 3%;
-}
-
 
 h1{
     margin: 50px auto 0 auto;
-    font-family: 'Dancing Script', cursive;
-    font-size: 5.625rem;
-    color: #66BFBF
+    font-family: 'Merriweather', serif;
+    font-size: 5.0rem;
+    color: #393e46
 }
 
 
 h2{
-    font-family: 'Indie Flower', cursive;
-    color: #66BFBF;
+    font-family: 'Merriweather', serif;
+    color: #393e46;
     font-weight: bold;
     font-size: 3em;
 }
 
 
 a{
-    font-family: 'Indie Flower', cursive;
-    color:#cdffeb;;
+    font-family: 'Merriweather', serif;
+    color:#393e46;;
 }
-
-
-
-
-
 
 /* Navigation Bar */
 .navbar
 {
-    background-color: #66BFBF;
+    background-color: #222831;
 }
 
 .nav-item
 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
 /* Heading of website */
 .top-container{
-    background-color: #cdffeb;
+    background-color: #faf5ef;
     position: relative;
-    padding-top: 100px
 }
-
-.top-cloud{
-    position: absolute;
-    right: 150px;
-}
-.programmer{
-    font-family: 'Indie Flower', cursive;
-    color: #66BFBF;
-    font-weight: normal;
-    font-size: 2.5rem;
-}
-
-.profile
-{
-    padding:0
-}
-
 
 /*hello section */
 .middle-container{
-    background-color: #cdffeb;
+    background-color: #faf5ef;
     text-align: center;
-}
-
-.intro{
-    margin: 0 auto;
-    width: 35%;
-    text-align: center;
-    color: #11999E;
 }
 
 /* SKills Section */
 
-.skills
+#Skills
 {
-    padding: 5%;
+    text-align: center;
+    background-color: #faf5ef;
 }
-
-.header
-{
-    padding: 5%;
-    font-weight: bold;
-    font-family: 'Indie Flower', cursive;
-    color: #11999E;
-}
-.header:hover
-{
-    color: #66bfbe;
-}
-
-.skill-description
-{
-    color: #11999E;
-    font-weight: 500;
-}
-.computer-image{
-    padding-right: 30px;
-}
-
-.python{
-    padding-right: 30px;
-}
-
-.Web-Development {
-    padding-right: 30px;
-}
-
 
 .contact-me{
     line-height: 2;
+    background-color: #5588a3;
 }
 
 .contact-header
 {
-    padding: 5%;
-    font-family: 'Indie Flower', cursive;
-    color: #11999E;
+    font-family: 'Merriweather', serif;
+    color: #393e46;
 }
 
 
 /* Footer of the Website */
 .bottom-container{
-    background-color: #66BFBF;
+    background-color: #222831;
 }
 
 .footer-link{
@@ -155,12 +87,12 @@ a{
 
 
 .butn {
-    background: #66BFBF;
-    background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
-    background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
-    background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
-    background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
-    background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+    background: #393e46;
+    background-image: -webkit-linear-gradient(top, #393e46, #393e46);
+    background-image: -moz-linear-gradient(top, #393e46, #393e46);
+    background-image: -ms-linear-gradient(top, #393e46, #393e46);
+    background-image: -o-linear-gradient(top, #393e46, #393e46);
+    background-image: linear-gradient(to bottom, #393e46, #393e46);
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
@@ -172,7 +104,7 @@ a{
   }
   
   .butn:hover {
-    background: #66BFBF;
+    background: #393e46;
     background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
     background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
     background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
